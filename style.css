@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Odibee Sans', cursive;
+}
+body {
+    background-color: #EAE6E5;
+}
+
+
+.nav-bar {
+    list-style: none;
+    padding: 0;
+    background-color: #12130F;
+
+}
+.nav-bar li {
+    display: inline;
+    text-align: center;
+}
+
+.nav-bar li a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #8F8073;
+}
+
+.nav-bar li a:hover {
+    background-color: #8FCB9B;
+}
+
+.container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.formulario {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.formulario input, select {
+    font-size: 1em;
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #8FCB9B;
+    border-radius: 20px;
+}
+
+.formulario input:focus {
+    background-color: #5B9279;
+}
+
+.formulario input[type=submit] {
+    color: #EAE6E5;
+    background-color: #12130F;
+}
+
+.formulario input[type=submit]:hover {
+    color: #12130F;
+    background-color: #EAE6E5;
+    cursor: pointer;
+}
